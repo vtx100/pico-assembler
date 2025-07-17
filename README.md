@@ -75,7 +75,7 @@ cmake --build.
 - REG_IMM: 1 register argument and 1 immediate value bounded by the maximum unsigned representation on 8 bits.Can be passed as:
   - Decimal : using the prefix **!d** followed by a decimal number
   - Binary : using the prefix **!b** followed by a binary number  
-## Output formatters
+## 📝 Output formatters
 Currently allows outputting in the following formats:
 - **vhdlbin** : ``` "<line_idx>" => b"<binary_instruction>",```
 - **vhdlhex** : ```  "<line_idx>" => x"<hex_instruction>",```
