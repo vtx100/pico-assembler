@@ -1,0 +1,25 @@
+# Build 
+/build/
+/.cache/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Tests, for now
+/tests/
+
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+
+.vscode/
+
+# Clang 
+.clangd
+.clang-format
+
+*.log
+*.tmp
